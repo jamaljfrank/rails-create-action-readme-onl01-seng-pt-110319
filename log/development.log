@@ -81,3 +81,12 @@ Redirected to http://165.227.31.156:55369/posts/2
 Completed 302 Found in 9ms (ActiveRecord: 4.5ms)
 
 
+Started GET "/posts/2" for 73.225.67.69 at 2020-03-28 18:07:51 +0000
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 12.9ms | ActiveRecord: 0.3ms)
+
+
