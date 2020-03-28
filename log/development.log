@@ -48,3 +48,12 @@ Completed 200 OK in 27ms (Views: 10.4ms | ActiveRecord: 0.2ms)
   [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Started GET "/" for 73.225.67.69 at 2020-03-28 18:07:30 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /usr/local/rvm/gems/ruby-2.6.1/gems/railties-5.0.7.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/railties-5.0.7.2/lib/rails/templates/rails/welcome/index.html.erb (6.4ms)
+Completed 200 OK in 34ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/posts" for 73.225.67.69 at 2020-03-28 18:07:33 +0000
